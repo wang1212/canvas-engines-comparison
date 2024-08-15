@@ -12,6 +12,9 @@
     "copy": "source .env && rsync -qazP $DEPLOY_FILES $DEPLOY_TARGET"
   },
   "dependencies": {
+    "@antv/g": "^6.0.12",
+    "@antv/g-canvas": "^2.0.10",
+    "@antv/g-webgl": "^2.0.13",
     "@createjs/easeljs": "^2.0.0-beta.4",
     "@lightningjs/renderer": "0.6.0",
     "@mesh.js/core": "^1.1.23",
